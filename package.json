@@ -7,7 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "local":"npx cypress run --headed --browser edge --config baseUrl=https://google.com",
     "stag":"npx cypress run --headed --browser edge --config baseUrl=https://facebook.com",
-    "prod":"npx cypress run --headed --browser edge --config baseUrl=https://yahoo.com"
+    "prod":"npx cypress run --headed --browser edge --config baseUrl=https://yahoo.com",
+    "stag2":"npx cypress run --headed --browser edge --config-file staging-config.json",
+    "prod2":"npx cypress run --headed --browser edge --config-file production-config.json",
+    "local2":"npx cypress run --headed --browser edge --config-file local-config.json"
   },
   "keywords": [],
   "author": "",

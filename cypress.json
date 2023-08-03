@@ -1,4 +1,6 @@
 {
 
-    "baseUrl":"http://www.webdriveruniversity.com/"
+    "baseUrl":"http://www.webdriveruniversity.com/",
+    "pageLoadTimeout":80000
+
 }
